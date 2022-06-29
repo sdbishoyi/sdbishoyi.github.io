@@ -8,5 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-I am working with Dr. GK in the [U2GRC Group](https://web.uri.edu/gravity){:target="_blank"} at UMass D.
+I am working with Dr. GK in the [U2GRC Group](https://web.uri.edu/gravity){:target="_blank"} at University of Massachusetts Dartmouth.
 
