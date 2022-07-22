@@ -3,4 +3,4 @@ title: "Research"
 permalink: /research/
 ---
 
-To be updated.
+I am interested in the spacetime and dynamics of binary merger events of compact objects.
