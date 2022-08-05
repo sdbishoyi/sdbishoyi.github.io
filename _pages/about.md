@@ -12,7 +12,7 @@ redirect_from:
 
 I am a doctoral fellow in the Engineering and Applied Sciences PhD program at the College of Engineering, University of Massachusetts Dartmouth. 
 
-I am a member of the [U<sup>2</sup>GRC Group](https://web.uri.edu/gravity){:target="_blank"} where I work on the two body problem in general relativity. 
+I am a member of the [U<sup>2</sup>GRC Group](https://web.uri.edu/gravity){:target="_blank"} where I work on the two body problem in general relativity. This involves studying the dynamics and time evolution of the grvitationally bound two body system by treating gravity as the curvature of spacetime.
 
 I completed my integrated BS-MS degree at Indian Institute of Science Education and Research, Kolkata in may 2022, majoring in Physics and a minor in mathematics. 
 
