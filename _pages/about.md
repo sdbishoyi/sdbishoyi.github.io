@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## About me
+## My Worldline
 
 I am a doctoral fellow in the Engineering and Applied Sciences PhD program at the University of Massachusetts Dartmouth. Before joining the PhD program, I have worked with Prof. Gaurav Khanna and Dr. Scott Field in the [U2GRC Group](https://web.uri.edu/gravity){:target="_blank"}.
 
