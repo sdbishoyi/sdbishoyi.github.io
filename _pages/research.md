@@ -3,5 +3,18 @@ title: "Research"
 permalink: /research/
 ---
 
-I am interested in the spacetime and dynamics of binary merger events of compact objects such as Black Holes and Neutron Stars. There are several approaches that are used to model these events. I am interested in an approach named Black Hole perturbation theory.
+# Gravitational self-force in the time domain
+
+## What is gravitational self-force(GSF)?
+
+
+# Boundary conditions for wave-like equations in black hole perturbation theory(BHPT)
+
+## What are the wave-like equations in the context of BHPT
+
+
+
+# Observational implications for Gravitational hair from extremal Kerr black holes
+
+## What is hair in the context of black holes?
 

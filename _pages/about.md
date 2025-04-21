@@ -10,11 +10,9 @@ redirect_from:
 
 # My Worldline
 
-I am a doctoral fellow in the Engineering and Applied Sciences PhD program at the College of Engineering, University of Massachusetts Dartmouth. 
+Currently, I am a 3rd year PhD researcher at the University of Massachusetts(UMass) Dartmouth working on computational gravitational physics. I use numerical methods for solving partial differential equations that arise in Black Hole Perturbation theory.
 
-I am a member of the [U<sup>2</sup>GRC Group](https://web.uri.edu/gravity){:target="_blank"} where I work on the two body problem in general relativity. This involves studying the dynamics and time evolution of the gravitationally bound two body system by treating gravity as the curvature of spacetime.
+I am a member of the [U<sup>2</sup>GRC Group](https://web.uri.edu/gravity){:target="_blank"} formed from the combination of gravity groups at UMass Dartmouth and University of Rhode Island.
 
-I completed my integrated BS-MS degree at [Indian Institute of Science Education and Research, Kolkata](https://www.iiserkol.ac.in/web/en){:target="_blank"} in may 2022, majoring in Physics and a minor in mathematics. 
-
-I like teaching and have thus far served as a teaching assistant for undergrad courses such as Classical Mechanics I and II, Electrodynamics I and Introduction to Computation. In my free time, I like playing or watching football and cricket, walking in a natural setting, some simple paper-cutting crafts and reading some interesting book. 
+I have a passion for teaching(both others and myself) and have thus far served as a teaching assistant for several undergrad courses such as Classical Mechanics I and II, Electrodynamics I and Introduction to Computation. In my free time, I like playing and watching football and cricket, meandering in a natural setting, watching movies/anime and reading biographies of people and historical accounts of past events.
 
