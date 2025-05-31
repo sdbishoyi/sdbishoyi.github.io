@@ -50,3 +50,8 @@ This code looks like
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+
+2. We are ready to write blogs and add papers as they come. Next TODOS are to add in research details, teaching details and a blog. Also organize the config.yml file
+by looking at the website's corresponding file.
+
+3. How would you add pictures to convey your research. Also place a picture in the background.
