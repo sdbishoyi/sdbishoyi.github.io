@@ -19,9 +19,14 @@ $$
 
 ## i. What are the wave-like equations in the context of BHPT
 
-There are 3 wave-like equations in Black Hole perturbation theory. They are the Regge-Wheeler equation, the Zerilli equation and the Teukolsky equation. 
+There are 3 wave-like equations in Black Hole perturbation theory. They are the Regge-Wheeler equation, the Zerilli equation and the Teukolsky equation. The first two describe perturbations in the spacetime of Schwarzschild black holes, while the third describes perturbations of Kerr black holes.
 
 # 3. Observational implications for Gravitational hair from extremal Kerr black holes
 
 ## i. What is hair in the context of black holes?
 
+Rather than directly answering the question, it is easier to understand the no-hair theorem in general 
+relativity. It states that a black hole is fully characterized by three parameters namely the mass, spin and charge. In that sense there are no other(independent) quantities that can distinguish between two black holes.
+
+
+**Content on this page will change with increasing clarity and conciseness**
