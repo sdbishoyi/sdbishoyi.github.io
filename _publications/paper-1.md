@@ -1,7 +1,7 @@
 ---
-title: "Numerical Evidence for Non-Axisymmetric Gravitational “Hair” for Extremal Kerr Black Hole Spacetimes with Hyperboloidal Foliations"
+title: "Numerical Evidence for Non-Axisymmetric Gravitational Hair for Extremal Kerr Black Hole Spacetimes with Hyperboloidal Foliations"
 collection: publications
-permalink: /publications/Numerical Evidence for Non-Axisymmetric Gravitational “Hair” for Extremal Kerr Black Hole Spacetimes with Hyperboloidal Foliations
+permalink: /publications/paper-1
 <!--excerpt: 'This paper is about the number 1. The number 2 is left for future work.'-->
 date: 2025-02-17
 venue: 'General Relativity and Gravitation, Springer'
