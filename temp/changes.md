@@ -20,8 +20,7 @@ markdown.md located in |_pages/| is important.
 
 contains samples of blog posts. Visit https://academicpages.github.io/ to checkout the model webpage.
 
-
-
+Also checkout https://jayrobwilliams.com/posts/2020/06/academic-website/
 
 **********************  On 04/11/2025
 
