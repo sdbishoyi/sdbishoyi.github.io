@@ -4,6 +4,7 @@ I can write instructions about managing the website here. As of 7/27/2024, I hav
     |=============|
 The | _config.yml | file
     |=============|
+    
 If there is something here thatyou don't understand, you can give this file to ChatGPT to explain it to you.
 
 ************************************** In _data/navigation.yml ************************************************

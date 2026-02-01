@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Som Dev Bishoyi"
 title_separator          : "-"
 name                     : &name "Som Dev Bishoyi"
-description              : &description "3rd year PhD researcher in gravitational physics"
+description              : &description "4th year PhD researcher in applied mathematics and gravitational physics"
 url                      : https://sdbishoyi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sdbishoyi/sdbishoyi.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Som Dev Bishoyi"
   avatar           : "ME.jpeg"
-  bio              : "3rd year PhD researcher in gravitational physics"
+  bio              : "4th year PhD researcher in applied mathematics and gravitational physics"
   location         : "North Dartmouth <br> Massachusetts, United States"
   employer         :
   pubmed           : 
