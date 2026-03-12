@@ -3,17 +3,17 @@ title: "Research"
 permalink: /research/
 ---
 
-# Research
+<!-- # Research -->
 
 My PhD research focuses on developing high-accuracy numerical methods for black hole perturbation theory, with applications to gravitational wave physics, extreme mass ratio inspirals (EMRIs), and the structure of black hole horizons.
 
 ### 1. Discontinuous Galerkin Methods for the Teukolsky Equation with Singular Sources on Generic Orbits
 
-Extreme mass ratio inspirals (EMRIs) — systems involving a stellar-mass compact object orbiting and plunging into a supermassive black hole — are prime targets for the **Laser Interferometer Space Antenna (LISA)**. These systems are accurately described within black hole perturbation theory, where the gravitational radiation is governed by the **Teukolsky equation**.
+Extreme mass ratio inspirals (EMRIs) — systems involving a stellar-mass compact object orbiting and plunging into a supermassive black hole — are prime targets for the **[Laser Interferometer Space Antenna (LISA)](https://www.lisamission.org/)**. These systems are accurately described within black hole perturbation theory, where the gravitational radiation is governed by the **[Teukolsky equation](https://ui.adsabs.harvard.edu/abs/1973ApJ...185..635T/abstract)**.
 
 The source term in the Teukolsky equation for a point particle includes derivatives of the Dirac delta function, traditionally approximated by a narrow Gaussian. This approximation introduces systematic errors and limits convergence, especially for realistic (eccentric or generic) orbits.
 
-I am developing a **discontinuous Galerkin (DG)** finite element method that directly incorporates the distributional singular source without regularization. This approach achieves **spectral accuracy** even near the singularity, enabling exponentially convergent waveforms and self-force calculations for progressively more realistic EMRI orbits.
+I am developing a **[discontinuous Galerkin (DG)](https://link.springer.com/book/10.1007/978-0-387-72067-8)** finite element method that directly incorporates the distributional singular source without regularization. This approach achieves **[spectral accuracy](https://www.cambridge.org/core/books/spectral-methods-for-timedependent-problems/FF1D2BA7F74E5A8930F1F674CC80511A)** even near the singularity, enabling exponentially convergent waveforms and self-force calculations for progressively more realistic EMRI orbits.
 
 ### 2. Exact Outer Boundary Conditions for the Bardeen–Press Equation
 
@@ -21,7 +21,7 @@ The **Bardeen–Press equation** is the spin-0 (scalar) counterpart of the Teuko
 
 Long-time numerical evolutions of wave equations on unbounded domains suffer from spurious reflections and late-time instabilities when using standard Sommerfeld (outgoing) boundary conditions.
 
-I am investigating advanced non-reflecting boundary techniques, including **hyperboloidal compactification** (inspired by methods related to perfectly matched layers / Berenger-type absorbers) and boundary integral kernels. These approaches map null infinity to a finite coordinate location, eliminating artificial boundaries and ensuring long-term stability and accurate extraction of gravitational waveforms at future null infinity.
+I am investigating advanced non-reflecting boundary techniques, including **[hyperboloidal compactification](https://www.sciencedirect.com/science/article/pii/S0021999110006807)** (inspired by methods related to perfectly matched layers / Berenger-type absorbers) and boundary integral kernels. These approaches map null infinity to a finite coordinate location, eliminating artificial boundaries and ensuring long-term stability and accurate extraction of gravitational waveforms at future null infinity.
 
 ### 3. Observational Signatures of Gravitational Hair in Extremal Kerr Black Holes
 
@@ -62,4 +62,9 @@ on the horizon.
 * These conserved charges have the ability to distinguish extremal (i.e. maximally spinning where a=M) from sub-extremal black holes (where a<M). Here a is the spin of the black hole and M its mass. 
 
 
-**Content on this page will change with increasing clarity and conciseness** -->
+**Content on this page will change with increasing clarity and conciseness**
+
+
+
+
+ -->
