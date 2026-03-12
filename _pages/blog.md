@@ -29,4 +29,11 @@ redirect_from:
 2. Dedalus: [https://dedalus-project.org/](https://dedalus-project.org/)
 3. FEniCS: [https://fenicsproject.org/](https://fenicsproject.org/)
 4. Firedrake: [https://www.firedrakeproject.org/](https://www.firedrakeproject.org/)
-5. JAX
+5. JAX : [https://jax.readthedocs.io/en/latest/](https://jax.readthedocs.io/en/latest/) 
+6. Marimo Notebooks: [https://marimo-notebooks.github.io/](https://marimo-notebooks.github.io/)
+7. Flatiron Institute
+
+# Aweosome Blogs
+
+1. Kaze Wong: [https://kazewong.com/](https://kazewong.com/)
+2. Leo Stein: [DueToSymmetry](https://duetosymmetry.com/)

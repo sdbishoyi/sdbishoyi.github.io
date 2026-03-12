@@ -36,7 +36,15 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.type or post.venue or post.location %}
+      <p class="archive__item-excerpt" itemprop="description">
+        <span class="talk__type-location">
+          {% if post.type %}{{ post.type }}{% endif %}
+          {% if post.venue %}{% if post.type %}, {% endif %}{{ post.venue }}{% endif %}
+          {% if post.location %}{% if post.type or post.venue %}, {% endif %}{{ post.location }}{% endif %}
+        </span>
+      </p>
+    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
