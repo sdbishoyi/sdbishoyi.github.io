@@ -6,6 +6,9 @@ redirect_from:
   - /blog/
 ---
 
+<!-- Can this file be named resources.md instead of blog.md? I think it would be more intuitive. Also, the content of this page is more about resources than blogs. -->
+
+
 <!-- {% include base_path %}
 
 {% for post in site.posts %}
@@ -33,7 +36,8 @@ redirect_from:
 6. Marimo Notebooks: [https://marimo-notebooks.github.io/](https://marimo-notebooks.github.io/)
 7. Flatiron Institute
 
-# Aweosome Blogs
+# Awesome Blogs
 
-1. Kaze Wong: [https://kazewong.com/](https://kazewong.com/)
-2. Leo Stein: [DueToSymmetry](https://duetosymmetry.com/)
+1. Leo Stein: [DueToSymmetry](https://duetosymmetry.com/)
+2. Peter Woit: [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/)
+3. Terry Tao: [What's new](https://terrytao.wordpress.com/)

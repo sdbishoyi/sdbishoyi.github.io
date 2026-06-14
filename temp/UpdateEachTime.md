@@ -7,17 +7,19 @@ time. Examples:
 
 # Updating Publications
 
-1. Move/Create a file in /_publications.
+1. Move or Create a file in /_publications.
 2. Point Codex/Copilot to the paper on ArXiv.
 3. It can then create an entry.
 
 # Updating Talks
 
-1. 
+1. Move or Create a file in /_talks.
+2. Point Codex/Copilot to the talk details (Meeting/Conference, Topic of the talk, Slides etc.)
+3. It can then create an entry.
 
 # Updating Resources
 
-1.
+1. Make changes to blog.md
 
 # Updating CV
 
