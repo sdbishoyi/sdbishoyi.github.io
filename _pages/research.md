@@ -9,30 +9,33 @@ My PhD research focuses on high-accuracy numerical methods for black hole pertur
 
 ### 1. Discontinuous Galerkin methods for singular-source Teukolsky evolutions
 
-![DG Teukolsky waveform convergence summary](https://github.com/user-attachments/assets/aecb391c-c68f-464c-b72c-b196fdcbdf2d)
-*Figure: User-supplied figure illustrating the EMRI/Teukolsky simulation workflow and numerical behavior.*
+![DG Teukolsky waveform convergence summary](https://github.com/user-attachments/assets/3817ec07-ab09-4727-9a71-d655acd380fe)
+*Figure: Convergence of the numerical flux $\dot{E}$ in Teukolsky simulation to a reference value from Black Hole Perturbation toolkit (BHPT) for circular orbits.*
 
 EMRIs are key targets for **[LISA](https://www.lisamission.org/)** and require accurate time-domain solutions of the **[Teukolsky equation](https://ui.adsabs.harvard.edu/abs/1973ApJ...185..635T/abstract)**. I develop **[discontinuous Galerkin (DG)](https://link.springer.com/book/10.1007/978-0-387-72067-8)** methods that directly handle distributional particle sources, avoiding narrow-Gaussian regularization errors and improving convergence near the source.
 
-**Related links:** [Paper](/publication/paper-1)
+**Related links:** Coming soon <!-- [Paper](/publication/paper-1) -->
 
 ### 2. Radiation outer boundary conditions for long-time stable simulations
 
 ![ROBC stability and reflection suppression schematic](https://github.com/user-attachments/assets/8fbf1311-1523-403d-8c52-af59c2ad722d)
-*Figure: User-supplied figure showing the boundary-kernel workflow for time-domain and frequency-domain formulations.*
+*Figure: Schematic showing the boundary-kernel workflow in time-domain and frequency-domain.*
 
 Long-duration simulations on finite domains are often contaminated by spurious reflections and late-time artifacts under standard outgoing boundary conditions. I investigate exact radiation boundary kernels and hyperboloidal-inspired strategies for the Bardeen–Press equation to enable stable long-time evolution and accurate asymptotic waveform recovery.
+
+![Impact of correct boundary conditions on the simulation](https://github.com/user-attachments/assets/aecb391c-c68f-464c-b72c-b196fdcbdf2d)
+*Figure: Impact of correct boundary conditions on the simulation. Clean late time power-law decay of solution*
 
 **Related links:** [Paper](/publication/paper-3) · [ICERM poster](/images/ICERM_SciML_inGWs_Poster.pdf)
 
 ### 3. Horizon hair as a potential observable of extremal black holes
 
-![Extremal horizon hair signal imprint schematic](https://github.com/user-attachments/assets/3817ec07-ab09-4727-9a71-d655acd380fe)
-*Figure: User-supplied figure associated with extremal black hole horizon-hair signal behavior.*
+<!--![Extremal horizon hair signal imprint schematic](https://github.com/user-attachments/assets/aecb391c-c68f-464c-b72c-b196fdcbdf2d)
+*Figure: User-supplied figure associated with extremal black hole horizon-hair signal behavior.* -->
 
 While classical no-hair results characterize stationary black holes by mass, spin, and charge, extremal Kerr geometries exhibit conserved horizon quantities for specific perturbations. I study how these scalar/gravitational hair signatures can propagate into measurable waveform features and distinguish extremal from sub-extremal systems.
 
-**Related links:** [Paper](/publication/paper-2) · [Talk slides](https://drive.google.com/file/d/1_HpPvOZMyCARq1e6Az1E-CN33IHNGBKC/view?usp=sharing)
+**Related links:** [Paper](/publication/paper-1) · [Talk slides](https://drive.google.com/file/d/1_HpPvOZMyCARq1e6Az1E-CN33IHNGBKC/view?usp=sharing)
 
 ---
 *Last updated: August 2026*
