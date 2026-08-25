@@ -3,33 +3,39 @@ title: "Research"
 permalink: /research/
 ---
 
-<!-- # Research -->
+My PhD research focuses on high-accuracy numerical methods for black hole perturbation theory, with applications to gravitational wave physics, extreme mass ratio inspirals (EMRIs), and horizon-scale phenomena in extremal black holes.
 
-My PhD research focuses on developing high-accuracy numerical methods for black hole perturbation theory, with applications to gravitational wave physics, extreme mass ratio inspirals (EMRIs), and the structure of black hole horizons.
+## Research Highlights
 
-### 1. Discontinuous Galerkin Methods for the Teukolsky Equation with Singular Sources on Generic Orbits
+### 1. Discontinuous Galerkin methods for singular-source Teukolsky evolutions
 
-Extreme mass ratio inspirals (EMRIs) — systems involving a stellar-mass compact object orbiting and plunging into a supermassive black hole — are prime targets for the **[Laser Interferometer Space Antenna (LISA)](https://www.lisamission.org/)**. These systems are accurately described within black hole perturbation theory, where the gravitational radiation is governed by the **[Teukolsky equation](https://ui.adsabs.harvard.edu/abs/1973ApJ...185..635T/abstract)**.
+![DG Teukolsky waveform convergence summary](https://github.com/user-attachments/assets/aecb391c-c68f-464c-b72c-b196fdcbdf2d)
+*Figure: User-supplied figure illustrating the EMRI/Teukolsky simulation workflow and numerical behavior.*
 
-The source term in the Teukolsky equation for a point particle includes derivatives of the Dirac delta function, traditionally approximated by a narrow Gaussian. This approximation introduces systematic errors and limits convergence, especially for realistic (eccentric or generic) orbits.
+EMRIs are key targets for **[LISA](https://www.lisamission.org/)** and require accurate time-domain solutions of the **[Teukolsky equation](https://ui.adsabs.harvard.edu/abs/1973ApJ...185..635T/abstract)**. I develop **[discontinuous Galerkin (DG)](https://link.springer.com/book/10.1007/978-0-387-72067-8)** methods that directly handle distributional particle sources, avoiding narrow-Gaussian regularization errors and improving convergence near the source.
 
-I am developing a **[discontinuous Galerkin (DG)](https://link.springer.com/book/10.1007/978-0-387-72067-8)** finite element method that directly incorporates the distributional singular source without regularization. This approach achieves **[spectral accuracy](https://www.cambridge.org/core/books/spectral-methods-for-timedependent-problems/FF1D2BA7F74E5A8930F1F674CC80511A)** even near the singularity, enabling exponentially convergent waveforms and self-force calculations for progressively more realistic EMRI orbits.
+**Related links:** [Paper](/publication/paper-1)
 
-### 2. Exact Outer Boundary Conditions for the Bardeen–Press Equation
+### 2. Radiation outer boundary conditions for long-time stable simulations
 
-The **Bardeen–Press equation** is the spin-0 (scalar) counterpart of the Teukolsky equation on Schwarzschild spacetime, describing gravitational perturbations around non-rotating black holes.
+![ROBC stability and reflection suppression schematic](https://github.com/user-attachments/assets/8fbf1311-1523-403d-8c52-af59c2ad722d)
+*Figure: User-supplied figure showing the boundary-kernel workflow for time-domain and frequency-domain formulations.*
 
-Long-time numerical evolutions of wave equations on unbounded domains suffer from spurious reflections and late-time instabilities when using standard Sommerfeld (outgoing) boundary conditions.
+Long-duration simulations on finite domains are often contaminated by spurious reflections and late-time artifacts under standard outgoing boundary conditions. I investigate exact radiation boundary kernels and hyperboloidal-inspired strategies for the Bardeen–Press equation to enable stable long-time evolution and accurate asymptotic waveform recovery.
 
-I am investigating advanced non-reflecting boundary techniques, including **[hyperboloidal compactification](https://www.sciencedirect.com/science/article/pii/S0021999110006807)** (inspired by methods related to perfectly matched layers / Berenger-type absorbers) and boundary integral kernels. These approaches map null infinity to a finite coordinate location, eliminating artificial boundaries and ensuring long-term stability and accurate extraction of gravitational waveforms at future null infinity.
+**Related links:** [Paper](/publication/paper-3) · [ICERM poster](/images/ICERM_SciML_inGWs_Poster.pdf)
 
-### 3. Observational Signatures of Gravitational Hair in Extremal Kerr Black Holes
+### 3. Horizon hair as a potential observable of extremal black holes
 
-The **no-hair theorem** asserts that stationary black holes in general relativity are fully characterized by their mass, spin, and charge — with no additional independent parameters (“hair”).
+![Extremal horizon hair signal imprint schematic](https://github.com/user-attachments/assets/3817ec07-ab09-4727-9a71-d655acd380fe)
+*Figure: User-supplied figure associated with extremal black hole horizon-hair signal behavior.*
 
-However, for scalar fields (and potentially gravitational perturbations) in extremal Kerr spacetimes (maximally spinning, a = M), certain quantities on the event horizon fail to decay at late times and remain conserved. These conserved charges can distinguish extremal from sub-extremal black holes, potentially violating the classical no-hair picture in the extremal limit.
+While classical no-hair results characterize stationary black holes by mass, spin, and charge, extremal Kerr geometries exhibit conserved horizon quantities for specific perturbations. I study how these scalar/gravitational hair signatures can propagate into measurable waveform features and distinguish extremal from sub-extremal systems.
 
-I am exploring the nature of this **horizon hair** (both scalar and gravitational), its conservation properties, and possible observational imprints in gravitational wave signals — especially whether such features could leave detectable signatures in waveforms from near-extremal systems.
+**Related links:** [Paper](/publication/paper-2) · [Talk slides](https://drive.google.com/file/d/1_HpPvOZMyCARq1e6Az1E-CN33IHNGBKC/view?usp=sharing)
+
+---
+*Last updated: August 2026*
 
 <!-- 
 # 1. Solving the Teukolsky equation with singular source terms for generic orbits

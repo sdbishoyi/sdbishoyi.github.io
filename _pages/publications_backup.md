@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+Selected publications and preprints are listed below, with direct links to papers where available.
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
