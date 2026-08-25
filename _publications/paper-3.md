@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/paper-3
 excerpt: ''
 date: 2026-04-24
-venue: 'Submitted to SIAM journal of Scientific Computing'
+venue: 'Submitted to Classical and Quantum gravity'
 paperurl: 'https://arxiv.org/abs/2604.22734'
 # citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
