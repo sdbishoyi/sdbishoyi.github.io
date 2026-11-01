@@ -8,8 +8,7 @@ venue: 'Submitted to Classical and Quantum gravity'
 paperurl: 'https://arxiv.org/abs/2604.22734'
 # citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
-Abstract: Several theoretical and astrophysical problems
----including gravitational-wave modeling for extreme
+Abstract: Several theoretical and astrophysical problems, including gravitational-wave modeling for extreme
 mass-ratio inspirals--- require accurate time-domain
 solutions of the spin-weight $s=-2$ Teukolsky equation in
 Boyer-Lindquist coordinates. Because such simulations are
