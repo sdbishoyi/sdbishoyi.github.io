@@ -130,6 +130,15 @@
   }
 }
 
+.author__cv {
+  margin-top: 10px;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;

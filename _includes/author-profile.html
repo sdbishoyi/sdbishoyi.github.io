@@ -17,6 +17,7 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.cv %}<a href="{{ author.cv | prepend: base_path }}" class="btn author__cv" target="_blank"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV</a>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
