@@ -8,4 +8,4 @@ date: 2024-04-01
 location: "Sacramento, CA"
 ---
 
-This talk discusses methods for determining the extremality of Reissner-Nordstrom black holes by analyzing late-time tail behavior at spatial infinity, presented at the APS April Meeting 2024.
+This talk discusses methods for determining the extremality of Reissner-Nordstrom black holes by analyzing late-time tail behavior at future null infinity, presented at the APS April Meeting 2024.
