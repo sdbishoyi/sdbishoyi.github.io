@@ -1,0 +1,21 @@
+# Jekyll build output (GitHub Actions builds the site on every push)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS / editor junk
+.DS_Store
+._*
+.ipynb_checkpoints/
+*.code-workspace
